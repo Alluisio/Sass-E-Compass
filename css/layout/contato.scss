@@ -15,7 +15,7 @@
     width: 100%;
     margin-bottom: .8em;
     padding: 4px 8px;
-    @include borda-arredondada();
+    @include borda-arredondada;
     border: 2px solid #ccc;
   }
   
@@ -27,6 +27,6 @@
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    @include borda-arredondada();
-    @include sombra-padrao;
+    @include borda-arredondada;
+    @extend %sombra-padrao;
   }
